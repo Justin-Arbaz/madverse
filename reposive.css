@@ -1,0 +1,82 @@
+
+@media only screen and (max-width: 1200px) {
+    .navbar-nav, button{
+        display: none;
+    }
+   
+  }
+  
+@media only screen and (max-width: 992px) {
+    h1{
+        font-size: 33px;
+        margin: 30px 0px;
+    }
+    p{
+        margin: 0px;
+    }
+    .banner{
+        padding-top: 170px;
+    }
+    .features h2{
+        width: 100%;
+    }
+    br{
+        display: none;
+    }
+    .news{
+        display: none;
+    }
+    .news_heading{
+        display: none;
+    }
+    .tab_heading{
+        display: none;
+    }
+    .tabitem{
+        display: none;
+    }
+    .blog_heading p{
+        padding: 20px 0px;
+    }
+    .blog_heading h2{
+        margin: 0px;
+    }
+    .accordion_heading h2{
+        font-size: 30px;
+    }
+    .accordion .container{
+       margin: 0px 30px;
+       padding: 0px;
+    }
+    .accordion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .faq_container{
+        width: 100%;
+    }
+    .seefeature{
+        width: 100%;
+        padding: 40px 30px;
+       }
+       .spotify{
+        padding: 90px 70px;
+       }
+       .footer_form .footer_input input{
+        width: 16rem;
+       }
+    }
+    
+
+@media only screen and (max-width: 768px) {
+    .spotify{
+        padding: 40px 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 576px) {
+    
+}
